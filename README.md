@@ -41,14 +41,17 @@ Keep this key safe and private—it’s basically your VIP pass to the model!
 
 ## How to Use
 
- 1. Upload PDFs: Drag-and-drop or select multiple PDFs.
- 2. Hit “Submit & Process”: This step harnesses FAISS to build an index from your PDFs’ text.
- 3. Ask Your Question: Type in a question about the PDFs’ content.
- 4. Get Your Answer: Gemini reads the index, figures out the context, and provides a concise answer.
+1. **Upload PDFs**: Drag-and-drop or select multiple PDFs.
+2. **Hit “Submit & Process”**: This step harnesses FAISS to build an index from your PDFs’ text.
+3. **Ask Your Question**: Type in a question about the PDFs’ content.
+4. **Get Your Answer**: Gemini reads the index, figures out the context, and provides a concise answer.
 
-Example:
- • Uploaded an eBook on data science? Ask, “What’s the difference between supervised and unsupervised learning?”
- • The app fetches the relevant sections from the PDF and seamlessly generates
+**Example**:
+
+- Uploaded an eBook on data science? Ask, “What’s the difference between supervised and unsupervised learning?”
+- The app fetches the relevant sections from the PDF and seamlessly generates an answer.
+- Uploaded an eBook on data science? Ask, “What’s the difference between supervised and unsupervised learning?”
+- The app fetches the relevant sections from the PDF and seamlessly generates
 
 ## Docker Setup
 
@@ -66,23 +69,28 @@ If you’re a container enthusiast:
     docker run -p 8501:8501 chat-with-pdf
     ```
 
-3. Open your browser: Visit localhost:8501 and start chatting with your PDFs.
+3. Open your browser: Visit `localhost:8501` and start chatting with your PDFs.
 
 ## Main Features
 
- • PDF Upload & Processing: Simple interface to upload as many PDFs as you want.
- • FAISS Vector Store: Embeds and indexes your text for lightning-fast semantic search.
- • Google Gemini Integration: An advanced LLM that formulates human-like, context-aware answers.
- • User-Friendly UI: Streamlit ensures minimal friction in usage—no complicated CLI tools required.
+- **PDF Upload & Processing**: Simple interface to upload as many PDFs as you want.
+- **FAISS Vector Store**: Embeds and indexes your text for lightning-fast semantic search.
+- **Google Gemini Integration**: An advanced LLM that formulates human-like, context-aware answers.
+- **User-Friendly UI**: Streamlit ensures minimal friction in usage—no complicated CLI tools required.
 
 ## Contribution
 
 We welcome contributors of all backgrounds—whether you’re a seasoned developer or a curious beginner!
 
- 1. Fork this repo: Make it your own.
- 2. Create a new branch: Work on new features or squash pesky bugs.
- 3. Submit a Pull Request: Share your awesome ideas with the community.
- 4. Test, Test, Test: Please ensure everything runs smoothly before sending in your PR.
+## Contribution
+
+We welcome contributors of all backgrounds—whether you’re a seasoned developer or a curious beginner!
+
+1. **Fork this repo**: Make it your own.
+2. **Create a new branch**: Work on new features or squash pesky bugs.
+3. **Submit a Pull Request**: Share your awesome ideas with the community.
+4. **Test, Test, Test**: Please ensure everything runs smoothly before sending in your PR.
+
 
 ## License
 
