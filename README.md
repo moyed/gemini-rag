@@ -14,6 +14,24 @@ Sometimes, you only need that **one golden piece of information** hidden deep in
 
 ---
 
+## Why Use a Retrieval-Augmented Generation (RAG) Model?
+
+Simply having access to data isn’t enough—you need to extract meaningful insights efficiently. This is where **Retrieval-Augmented Generation (RAG)** models shine. Here’s why we chose to integrate a RAG model in this application:
+
+- **Enhanced Accuracy**: By combining information retrieval with language generation, RAG models ensure that the answers provided are both relevant and contextually accurate, minimizing the chances of incorrect or hallucinated responses.
+  
+- **Efficient Handling of Large Documents**: PDFs can be extensive and contain vast amounts of information. RAG leverages FAISS to perform semantic searches, allowing the application to quickly locate and reference the most pertinent sections of the text.
+  
+- **Context-Aware Responses**: Traditional Q&A systems may struggle with maintaining context over long passages. RAG models maintain a strong understanding of the context, providing more coherent and precise answers.
+  
+- **Scalability**: As the volume of uploaded PDFs grows, the RAG framework ensures that the system remains scalable, efficiently managing and querying large datasets without compromising performance.
+
+- **Versatility**: Whether you're analyzing academic papers, business reports, or technical documentation, the RAG model adapts to different types of content, providing reliable answers across various domains.
+
+By integrating RAG, this application not only retrieves relevant information from your PDFs but also synthesizes it into meaningful, easy-to-understand responses, making your interaction with documents seamless and productive.
+
+---
+
 ## Prerequisite Dependencies
 
 - **Python 3.10+** (recommended for best compatibility)
