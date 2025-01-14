@@ -97,11 +97,6 @@ If you’re a container enthusiast:
 ## Contribution
 
 We welcome contributors of all backgrounds—whether you’re a seasoned developer or a curious beginner!
-
-## Contribution
-
-We welcome contributors of all backgrounds—whether you’re a seasoned developer or a curious beginner!
-
 1. **Fork this repo**: Make it your own.
 2. **Create a new branch**: Work on new features or squash pesky bugs.
 3. **Submit a Pull Request**: Share your awesome ideas with the community.
