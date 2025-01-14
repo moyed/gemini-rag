@@ -47,8 +47,6 @@ Install everything with a single command:
 pip install -r requirements.txt
 ```
 
-## Prerequisite Dependencies
-
 To let Gemini do its magic, you need to supply your Gemini API key. Create a .env file (or set an environment variable) like so:
 
 ```bash
